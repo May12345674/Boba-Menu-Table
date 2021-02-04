@@ -47,5 +47,61 @@
                 <td>Mango star jelly</td>
             </tr>
         </table>
+        <fieldset>
+            <legend>Add a drink</legend>
+            <div>
+                <label for="drink">Drink</label>
+                <input type="text" id="drink" name="drink">
+            </div>
+            <div>
+                <p>Size</p>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Large</label>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="medium">Medium</label>
+            </div>
+            <br>
+            <div>
+                <label for="ice">Ice level</label>
+                <select name="ice" id="ice">
+                    <option value="100">100%</option>
+                    <option value="75%">75%</option>
+                    <option value="50%">50%</option>
+                    <option value="25%">25%</option>
+                    <option value="0%">0%</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="sugar">Sugar Level</label>
+                <select name="sugar" id="sugar">
+                    <option value="100%">100%</option>
+                    <option value="75%">75%</option>
+                    <option value="50%">50%</option>
+                    <option value="25%">25%</option>
+                    <option value="0%">0%</option>
+                </select>
+            </div>
+            <div>
+                <p>Topping</p>
+                <div>
+                    <input type="checkbox" id="boba" name="topping">
+                    <label for="boba">Boba Original</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rainbow jellies" name="topping">
+                    <label for="rainbow jellies">Rainbow Jellies</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mango" name="topping">
+                    <label for="mango">Mango Star Jelly</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <br>
+        <h4>All Finished?</h4>
+        <p>Thank you!</p>
+        <button type="submit">Place Order</button>
     </body>
 </html>
